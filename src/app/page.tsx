@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.description}>
         <Loader />
         <TelephoneNumber label="Telephone Number" min="0" max="99999999999" />
-        <DatePicker label="Choose a date" min="0" max="999999999"/>
+        <DatePicker label="Choose a date" min="0" max="9999999999"/>
         <Button>Click Me</Button>
       </div>
     </main>
