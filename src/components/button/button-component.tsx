@@ -40,7 +40,7 @@ const Button = ({children = "Button text"}: ButtonProps) => {
     }, 2000);
   };
 
-  // If by some miracle you manage to clcik the button, IT WILL HIDE ITSELF.
+  // If by some miracle you manage to click the button, IT WILL HIDE ITSELF.
   const handleClick = () => {
     hideButton();
   };
