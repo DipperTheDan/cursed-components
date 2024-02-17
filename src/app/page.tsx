@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import styles from "./page.module.css";
-import Loader from "../components/loader";
+import Loader from "@/components/loader";
 import TelephoneNumber from "@/components/telephone-number";
 import DatePicker from "@/components/date";
 import Button from "@/components/button";
